@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <com.example.a99544.uidemo.layout.TitleLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.6"></com.example.a99544.uidemo.layout.TitleLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_weight="4.4">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BFBFBF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="现在,跟我走吧"
+            android:textSize="18sp"
+            android:layout_marginLeft="145dp"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="途优旅创"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/total_gonglue"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></android.support.v7.widget.RecyclerView>
+
+
+        <!--TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#FFcb99"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="汝南梁祝墓"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@drawable/runanliangzhumu"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+
+                />
+
+            <TextView
+                android:text="地址:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/huahu"
+                android:textSize="15dp"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:text="河南省驻马店南县梁祝镇北"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/huahu"
+                android:layout_marginTop="15dp" />
+            <TextView
+                android:text="联系电话:"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="50dp"/>
+            <TextView
+                android:text="029-1394_1394"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="50dp"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="110dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="142dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_height="wrap_content"
+                    android:text="         汝南县是河南省驻马店市下属的一个县，西部边界与遂平县，驿城区，确山县接壤，北部与上蔡县为邻，东部与平邑县相连，南部与正阳县相接。古属豫州，豫州为九州之中，汝南又居豫州之中，故有天中之称。汝南县是中国古代四大民间传说之一《梁山伯与祝英台》的发生地，被称为中国梁祝之乡。县境内有大小河流130条，又有江北水城之称。境内有大小河流130条，又有江北水城之称。境内旅游资源丰富，有亚洲最大的寺院——南海禅寺。天中山，梁祝之墓，鸡黍台与二贤伺等景点。"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#FFcb99"
+            android:text="黄河第一弯"
+            android:gravity="center_horizontal|center_vertical"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/huanghediyiwan"
+                android:layout_width="180dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="120dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/linearLayout"/>
+
+            <TextView
+                android:text="地址:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/huanghediyiwan"
+                android:textSize="15dp"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:text="四川省若尔盖县"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/huanghediyiwan"
+                android:layout_marginTop="15dp" />
+            <TextView
+                android:text="联系电话:"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="50dp"/>
+            <TextView
+                android:text="029-1394_1394"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="50dp"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="110dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout">
+            </LinearLayout>
+        </RelativeLayout-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save_plan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffd148"
+            android:text="保存规划"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/back_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffd148"
+            android:text="返回主页"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>

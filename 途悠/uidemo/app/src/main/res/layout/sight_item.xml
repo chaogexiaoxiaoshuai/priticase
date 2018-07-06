@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="120dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:id="@+id/sight_image"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/huahu"
+            />
+
+        <TextView
+            android:id="@+id/sight_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:text="花湖"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/sight_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@+id/sight_name"
+            android:text="(四川)"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/sight_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="32dp"
+            android:text="途悠旅创，畅你所想"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/sight_peop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="60dp"
+            android:text="适合类型：自然爱好者"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/sight_add"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/plus"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="#BFBFBF"/>
+
+</LinearLayout>

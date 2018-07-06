@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.a99544.uidemo">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon5"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.StartActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".activity.SpotActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".activity.DateActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".activity.PreferenceActicity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".activity.SplashActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.GoalActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".activity.GoalSpotActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".activity.SelectSpotActivity">
+        </activity>
+        <activity android:name=".activity.ChuGaoActivity">
+        </activity>
+        <activity android:name=".activity.ChuGao2Activity">
+        </activity>
+        <activity android:name=".activity.LvChuangActivity">
+        </activity>
+        <activity android:name=".activity.LvChuang2Activity">
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>
